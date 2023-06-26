@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Satisfy&display=swap');
+
+textarea.form-control {
+    margin-bottom: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.original_title {
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_title {
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.srt {
+    display: flex;
+    flex-direction: row;
+}
+
+.originalText{
+    background-color: orangered;
+    padding: 20px;
+}
+
+.summaryText {
+    background-color: greenyellow;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.can {
+    text-align: center;
+    background-color: #d1ba70;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.can h1 {
+    font-family: 'DM Serif Text', serif;
+}
+
+.can p {
+    font-family: 'Satisfy', cursive;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
